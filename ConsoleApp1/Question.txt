@@ -1,0 +1,13 @@
+Create an abstract class Shape in c#. Add suitable fields and at least one overridable method area(). 
+Create three subclasses of shape: Circie, Triangle and Rectangle with suitable fields and 
+at least one method to find an area of that shape. In the driver program, create a list of shapes and 
+at least 2 rectangles, 2 circles and 2 triangles to the list. Iterate through the list and 
+print the area of the shapes in the list. Now sort the list items based on the area of the shapes in the  descending order. 
+And print the list on the console.
+=>Add at least one method to shape that is not overridable. And try to hide that method in child classes.
+=> Overload the area method in the rectangle class to assume that if only length is given, 
+the area can be found using the area of square formula.
+=> Try to create an interface named ‘Idrawable’ with a single method drawShape and 
+implement the interface in rectangle, circle and triangle class. 
+Try to see if you can draw the shape using the draw method on the console 
+(using suitable namespace and library classes if available) or print a suitable statement via the method on the console.
